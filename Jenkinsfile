@@ -7,7 +7,7 @@ pipeline{
                  echo 'github url checkout'
             }
         }
-        stage('codecompile with akshat'){
+        stage('codecompile '){
             steps{
                 echo 'starting compiling'
                 sh 'mvn compile'
